@@ -4,7 +4,10 @@
         $routeProvider.when('/', {
             templateUrl: '/PageTemplates/Home/home.html'
         })
-            .otherwise('/');
+        .when('/newPost', {
+            templateUrl: '/PageTemplates/NewPost/newPost.html',
+        })
+        .otherwise('/');
 
         $locationProvider.html5Mode(true);
         

@@ -5,13 +5,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" ng-app="Communitea">
 <head>
     <title></title>
-    <link href="~/AppJS/PageTemplates/Home/home.css" rel="stylesheet" />
+    @Styles.Render("~/Content/css")
+
+
+    <base href="/" />
 </head>
 <body>
+    <div>
+        much wow
+    </div>
     <div ng-view></div>
 </body>
-<script src="~/Scripts/jquery-2.2.0.min.js"></script>
-<script src="~/Scripts/angular.min.js"></script>
-<script src="~/Scripts/angular-route.min.js"></script>
-<script src="~/AppJS/app.js"></script>
+@Scripts.Render("~/bundles/coreJS",
+                "~/bundles/JS")
 </html>
