@@ -9,14 +9,14 @@ namespace consciouscommunitea.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(consciouscommunitea.Models.ApplicationDbContext context)
         {
 
 
-
+            
 
 
             //  This method will be called after migrating to the latest version.

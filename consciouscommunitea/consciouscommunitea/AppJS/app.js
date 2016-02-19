@@ -4,7 +4,7 @@ var CommuniteaApp;
         $routeProvider.when('/', {
             templateUrl: '/PageTemplates/Home/home.html'
         })
-            .when('/newPost', {
+            .when('/newpost', {
             templateUrl: '/PageTemplates/NewPost/newPost.html',
         })
             .otherwise('/');

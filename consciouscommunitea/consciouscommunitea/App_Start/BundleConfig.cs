@@ -18,7 +18,9 @@ namespace consciouscommunitea
                         "~/Scripts/angular-route.min.js",
                         "~/AppJS/app.js"));
 
-
+            bundles.Add(new StyleBundle("~/Content/css").Include(
+                    "~/Content/Site.css"
+                ));
             
 
         }
