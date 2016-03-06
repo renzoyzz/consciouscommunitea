@@ -1,6 +1,6 @@
 var CommuniteaApp;
 (function (CommuniteaApp) {
-    angular.module('Communitea', ['ngRoute']).config(function ($routeProvider, $locationProvider) {
+    angular.module('Communitea', ['ngRoute', 'ngSanitize']).config(function ($routeProvider, $locationProvider) {
         $routeProvider.when('/', {
             templateUrl: '/PageTemplates/Home/home.html'
         })

@@ -16,9 +16,15 @@ namespace consciouscommunitea
                         "~/Scripts/Jquery-{version}.min.js",
                         "~/Scripts/angular.min.js",
                         "~/Scripts/angular-route.min.js",
-                        "~/AppJS/app.js"));
+                        "~/Scripts/angular-sanitize.min.js",
+                        "~/AppJS/app.js",
+                        "~/AppJS/directives/edittingTools/edittingTools.js",
+                        "~/AppJS/directives/ngScopeElement/ngScopeElement.js"
+                        ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
+                    "~/AppJS/directives/edittingTools/edittingTools.css",
+
                     "~/Content/Site.css"
                 ));
             

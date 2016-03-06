@@ -225,6 +225,8 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AppJS\directives\edittingTools\edittingTools.css" />
+    <Content Include="AppJS\directives\edittingTools\edittingTools.html" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -1079,6 +1081,8 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="AppJS\app.ts" />
+    <TypeScriptCompile Include="AppJS\directives\edittingTools\edittingTools.ts" />
+    <TypeScriptCompile Include="AppJS\directives\ngScopeElement\ngScopeElement.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-cookies.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-mocks.d.ts" />

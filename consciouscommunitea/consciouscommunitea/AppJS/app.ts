@@ -1,5 +1,5 @@
 ﻿namespace CommuniteaApp {
-    angular.module('Communitea', ['ngRoute']).config(($routeProvider: ng.route.IRouteProvider, $locationProvider: ng.ILocationProvider) => {
+    angular.module('Communitea', ['ngRoute', 'ngSanitize']).config(($routeProvider: ng.route.IRouteProvider, $locationProvider: ng.ILocationProvider) => {
 
         $routeProvider.when('/', {
             templateUrl: '/PageTemplates/Home/home.html'
