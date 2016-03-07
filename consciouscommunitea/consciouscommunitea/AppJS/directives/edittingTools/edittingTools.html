@@ -1,19 +1,31 @@
-﻿<div class="col4"></div>
-<div class="col4">
-    <form id="blog-text-area">
-        <input type="text" ng-model="title"/>
-        <textarea class="col12" ng-scope-element="blogContent"></textarea>
+﻿<div class="col12">
+    <div class="col2 offCol"></div>
+    <div class="col8">
+        <form id="blog-text-area">
+            <input type="text" ng-model="title" />
+            <div class="textarea-container">
+                <textarea class="col12" ng-scope-element="blogContent" ng-model="code"></textarea>
 
-    </form>
-    <div class="col12 center-align">
-        Preview
+            </div>
+        </form>
     </div>
-    <div class="col12" ng-scope-element="blogPreview">
-
+    <div class="col2  center-align">
+        <button class="col12" ng-click="newParagraph()">Add Paragraph</button>
+        <button class="col12" ng-click="newImage()">Add Image</button>
+        <button class="col12" ng-click="newQuote()">Add Quote</button>
     </div>
 </div>
-<div class="col4  center-align">
-    <button class="col9" ng-click="newParagraph()">Add Paragraph</button>
-    <button class="col9">Button</button>
-    <button class="col9">Button</button>
+
+<div class="col2 offCol"></div>
+<div class="col8 mobCol">
+    <div class="blog-container">
+        <div class="col12 center-align">
+            Preview
+        </div>
+        <div class="col12 blog-header">{{title}}</div>
+        <div class="col12 " ng-scope-element="blogPreview">
+        </div>
+    </div>
+   
 </div>
+

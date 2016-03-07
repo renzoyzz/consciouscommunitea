@@ -20,7 +20,7 @@
     padding: 5px 10px;
 }
 
-.center-align > .col1,
+.center-align >.col1,
 .center-align >.col2,
 .center-align >.col3,
 .center-align >.col4,
@@ -33,7 +33,12 @@
 .center-align >.col11,
 .center-align >.col12 {
     float:none;
-    text-align:center;
+    text-align:left;
+   
+}
+
+.col2 {
+    width: 16.6666667%
 }
 
 .col3 {
@@ -60,7 +65,26 @@
     width: 100%;
 }
 
+
+
 .center-align {
     text-align:center;
 }
 
+
+@media screen and (max-width: 1000px){
+    
+    .mobCol {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+    .offCol {
+        display:none;
+    }
+}

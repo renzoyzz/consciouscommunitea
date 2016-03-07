@@ -22,15 +22,25 @@
             this.code = '';
             this.blogContent = this.scope.blogContent;
             this.butParagraph = this.scope.butParagraph;
+
            
             this.scope.newParagraph = () => {
                 this.newParagraph();
-            }
+            };
 
+            this.scope.newImage = () => {
+                this.newImage();
+            };
+
+            this.scope.newQuote = () => {
+                this.newQuote();
+            };
+
+
+         
         
 
             this.scope.$watch(() => { return this.blogContent.val() }, (newVal, oldVal) => {
-                console.log(newVal);
                 this.previewCode(newVal);
             });
 
@@ -38,7 +48,15 @@
         }   
 
         public newParagraph() {
-            this.blogContent.val(this.blogContent.val() + `<p>Text Here</p>\n`);
+            this.blogContent.val(this.blogContent.val() + `<p class="col12 blog-text">Text Here</p>\n\n\n`);
+        }
+
+        public newImage() {
+            this.blogContent.val(this.blogContent.val() + `<img src="/Images/TestImages/2016-02-22-1456172662-1597066-BernieSanders.jpg" class="col4 mobCol"/>\n\n\n`);
+        }
+
+        public newQuote() {
+            this.blogContent.val(this.blogContent.val() + `<blog-quote text="Enter Text Here"></blog-quote>\n\n\n\n`);
         }
 
         public previewCode(newVal) {

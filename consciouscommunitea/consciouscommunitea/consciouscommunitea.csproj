@@ -225,6 +225,7 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AppJS\directives\edittingTools\blogQuote\blogQuote.html" />
     <Content Include="AppJS\directives\edittingTools\edittingTools.css" />
     <Content Include="AppJS\directives\edittingTools\edittingTools.html" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
@@ -233,6 +234,9 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Images\TestImages\2016-02-22-1456172662-1597066-BernieSanders.jpg" />
+    <Content Include="PageTemplates\Blog\blog.css" />
+    <Content Include="PageTemplates\Blog\blog.html" />
     <Content Include="PageTemplates\Home\home.css" />
     <Content Include="PageTemplates\Home\home.html" />
     <Content Include="PageTemplates\NewPost\newPost.css" />
@@ -1081,6 +1085,7 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="AppJS\app.ts" />
+    <TypeScriptCompile Include="AppJS\directives\edittingTools\blogQuote\blogQuote.ts" />
     <TypeScriptCompile Include="AppJS\directives\edittingTools\edittingTools.ts" />
     <TypeScriptCompile Include="AppJS\directives\ngScopeElement\ngScopeElement.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />

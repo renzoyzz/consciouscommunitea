@@ -1,5 +1,7 @@
-﻿textarea {
+﻿
+
+textarea {
+    overflow-y: scroll;
+    height: 500px;
     resize: none;
-    height: 300px;
-    overflow-y:scroll;
 }

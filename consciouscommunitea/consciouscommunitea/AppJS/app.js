@@ -12,4 +12,3 @@ var CommuniteaApp;
     });
 })(CommuniteaApp || (CommuniteaApp = {}));
 var communiteaApp = angular.module('Communitea');
-//# sourceMappingURL=app.js.map
