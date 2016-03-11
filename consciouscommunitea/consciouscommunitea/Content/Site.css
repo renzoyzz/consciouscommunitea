@@ -1,4 +1,12 @@
-﻿.col1,
+﻿
+.container {
+    width: 100%;
+    overflow:hidden;
+    display: block;
+    margin: auto;
+}
+
+.col1,
 .col2,
 .col3,
 .col4,
@@ -10,9 +18,9 @@
 .col10,
 .col11,
 .col12 {
-    float:left;
-    overflow:hidden;
-    display:inline-block;
+    float: left;
+    overflow: hidden;
+    display: inline-block;
     min-height: 1px;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -20,25 +28,24 @@
     padding: 5px 10px;
 }
 
-.center-align >.col1,
-.center-align >.col2,
-.center-align >.col3,
-.center-align >.col4,
-.center-align >.col5,
-.center-align >.col6,
-.center-align >.col7,
-.center-align >.col8,
-.center-align >.col9,
-.center-align >.col10,
-.center-align >.col11,
-.center-align >.col12 {
-    float:none;
-    text-align:left;
-   
+.center-align > .col1,
+.center-align > .col2,
+.center-align > .col3,
+.center-align > .col4,
+.center-align > .col5,
+.center-align > .col6,
+.center-align > .col7,
+.center-align > .col8,
+.center-align > .col9,
+.center-align > .col10,
+.center-align > .col11,
+.center-align > .col12 {
+    float: none;
+    text-align: left;
 }
 
 .col2 {
-    width: 16.6666667%
+    width: 16.6666667%;
 }
 
 .col3 {
@@ -67,24 +74,68 @@
 
 
 
+.center-text {
+    text-align: center;
+}
+
 .center-align {
-    text-align:center;
+    display: block;
+    margin: auto;
+    float: none;
 }
 
 
-@media screen and (max-width: 1000px){
-    
-    .mobCol {
+@media screen and (max-width: 1000px) {
+    .mobCol2,
+    .mobCol3,
+    .mobCol4,
+    .mobCol6,
+    .mobCol8,
+    .mobCol9,
+    .mobCol12 {
+        padding: 4px;
+    }
+
+    .mobCol2 {
+        width: 16.6666667%;
+    }
+
+    .mobCol3 {
+        width: 25%;
+    }
+
+    .mobCol4 {
+        width: 33.333332%;
+    }
+
+    .mobCol6 {
+        width: 50%;
+    }
+
+    .mobCol8 {
+        width: 66.66666665%;
+    }
+
+    .mobCol9 {
+        width: 75%;
+    }
+
+    .mobCol12 {
         width: 100%;
     }
 
+    .center-align {
+        display: inline-block;
+        float: left;
+    }
 
-
-
-
-
+    .mobCenter-align {
+        display: block;
+        margin: auto;
+        float: none;
+    }
 
     .offCol {
-        display:none;
+        display: none;
     }
 }

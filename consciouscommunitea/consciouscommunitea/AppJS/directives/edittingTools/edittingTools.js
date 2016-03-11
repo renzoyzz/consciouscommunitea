@@ -30,7 +30,7 @@ var CommuniteaApp;
                 this.blogContent.val(this.blogContent.val() + "<p class=\"col12 blog-text\">Text Here</p>\n\n\n");
             };
             EdittingTools.prototype.newImage = function () {
-                this.blogContent.val(this.blogContent.val() + "<img src=\"/Images/TestImages/2016-02-22-1456172662-1597066-BernieSanders.jpg\" class=\"col4 mobCol\"/>\n\n\n");
+                this.blogContent.val(this.blogContent.val() + "<img src=\"/Images/TestImages/2016-02-22-1456172662-1597066-BernieSanders.jpg\" class=\"col4 mobCol6\"/>\n\n\n");
             };
             EdittingTools.prototype.newQuote = function () {
                 this.blogContent.val(this.blogContent.val() + "<blog-quote text=\"Enter Text Here\"></blog-quote>\n\n\n\n");
@@ -53,3 +53,4 @@ var CommuniteaApp;
         communiteaApp.directive('edittingTools', ['$compile', edittingTools]);
     })(Directives = CommuniteaApp.Directives || (CommuniteaApp.Directives = {}));
 })(CommuniteaApp || (CommuniteaApp = {}));
+//# sourceMappingURL=edittingTools.js.map

@@ -20,3 +20,4 @@ var CommuniteaApp;
         communiteaApp.directive('ngScopeElement', [ngScopeElement]);
     })(Directives = CommuniteaApp.Directives || (CommuniteaApp.Directives = {}));
 })(CommuniteaApp || (CommuniteaApp = {}));
+//# sourceMappingURL=ngScopeElement.js.map

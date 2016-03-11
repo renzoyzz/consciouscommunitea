@@ -15,3 +15,4 @@ var CommuniteaApp;
         communiteaApp.directive('blogQuote', [blogQuote]);
     })(Directives = CommuniteaApp.Directives || (CommuniteaApp.Directives = {}));
 })(CommuniteaApp || (CommuniteaApp = {}));
+//# sourceMappingURL=blogQuote.js.map

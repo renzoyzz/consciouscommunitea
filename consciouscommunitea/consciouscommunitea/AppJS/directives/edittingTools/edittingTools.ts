@@ -52,7 +52,7 @@
         }
 
         public newImage() {
-            this.blogContent.val(this.blogContent.val() + `<img src="/Images/TestImages/2016-02-22-1456172662-1597066-BernieSanders.jpg" class="col4 mobCol"/>\n\n\n`);
+            this.blogContent.val(this.blogContent.val() + `<img src="/Images/TestImages/2016-02-22-1456172662-1597066-BernieSanders.jpg" class="col4 mobCol6"/>\n\n\n`);
         }
 
         public newQuote() {
